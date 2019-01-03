@@ -68,6 +68,10 @@
         "source": "/home/pascal/DHBW/MomentManager/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
     },
     {
+        "merged": "/home/pascal/DHBW/MomentManager/platforms/android/app/build/intermediates/res/merged/debug/xml_camera_provider_paths.xml.flat",
+        "source": "/home/pascal/DHBW/MomentManager/platforms/android/app/src/main/res/xml/camera_provider_paths.xml"
+    },
+    {
         "merged": "/home/pascal/DHBW/MomentManager/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
         "source": "/home/pascal/DHBW/MomentManager/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
     },
