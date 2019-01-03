@@ -46,3 +46,7 @@ var app = {
 app.initialize();
 
 tabMenu.initialize();
+
+$('#new_photo_pic_new').click(takePhoto.takeNewPhoto);
+$('#new_photo_pic_renew').click(takePhoto.takeNewPhoto);
+$('#new_photo_pic_delete').click(takePhoto.delete);
