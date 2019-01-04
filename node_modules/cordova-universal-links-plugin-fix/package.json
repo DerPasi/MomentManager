@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      "cordova-universal-links-plugin-fix",
+      "/home/pascal/DHBW/MomentManager"
+    ]
+  ],
+  "_from": "cordova-universal-links-plugin-fix@latest",
+  "_id": "cordova-universal-links-plugin-fix@1.2.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-universal-links-plugin-fix",
+  "_nodeVersion": "10.9.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-universal-links-plugin-fix_1.2.1_1534934798428_0.7944736116568551"
+  },
+  "_npmUser": {
+    "email": "kontakt@johanneslinowski.de",
+    "name": "musemind"
+  },
+  "_npmVersion": "6.4.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-universal-links-plugin-fix",
+    "raw": "cordova-universal-links-plugin-fix",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-universal-links-plugin-fix/-/cordova-universal-links-plugin-fix-1.2.1.tgz",
+  "_shasum": "20e91ffd0945ee9761ea5648c202ab24eebf4ff8",
+  "_shrinkwrap": null,
+  "_spec": "cordova-universal-links-plugin-fix",
+  "_where": "/home/pascal/DHBW/MomentManager",
+  "author": {
+    "name": "Nikolay Demyankov for Nordnet Bank AB"
+  },
+  "bugs": {
+    "url": "https://github.com/nordnet/cordova-universal-links-plugin/issues"
+  },
+  "cordova": {
+    "id": "cordova-universal-links-plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "mkpath": ">=1.0.0",
+    "node-version-compare": ">=1.0.1",
+    "plist": ">=1.2.0",
+    "rimraf": ">=2.4",
+    "xml2js": ">=0.4"
+  },
+  "description": "Cordova plugin to add in your application support for Universal Links (iOS 9) and Deep Links (Android). Basically, open application through the link in the browser.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 54,
+    "integrity": "sha512-w7ctP0gzEOoCrchJ6DnjckdJawk+XBUze4khXS/p1cD7i2UScqUt3+gpffVu1iZbZHf9/84U1mEn7nbKC+FmrA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfT8PCRA9TVsSAnZWagAATzIP/0JqS3CKG+5lvkQqX6zy\nVPVAn4TB23pcjMITLqt68raaxAtuP6Al3ooJEdCv6zZHhMGOXzb/ze+OEIub\nNLls1zh8gZg4/vpkOPy3z/IKHD1IBjVgjcWpKI5vZOwHchwtAeLexAqskbf/\nJGZFM6YGEZVDL/DCQQb2PdOd1wbywjh+fFcJe9L97bEnIBvv0fXdTENytXhv\nK2ErkmHRgj50QmpXE8NAvc6V9O+a5byYbZ1V1Pud58YJcpkN0B+dypzTbyM5\nOLt3hQ5rqJb75XeP14PSpG8x5AAaFIrs12NC9GTbTHYkwNaqH8OZtcXORYSi\n4ATNbcJQKu6MHvpKXe12Ex5Yr1af3IOUuQby3mqIn6RoA9aCD5fPvPfdhULR\naA9FxVPMP6+Ii/Mwep7V6aQ6JfaP+iPC1MBshYq1uLQgS2PRQDp+UNDAd/R5\nv+CZRD3ljIHmSKw+5+adw3giyUDMrVC4NL75NTDcjlABPH2B43/bsKGihnuU\nqyhHnMijBynkEp40pFo4TgSjQ5WgJUJRMcZS6VLrGrHRtEyoTxbqCLCD35+t\n2cGbaw15TEOmVrrfXMeRc/Jlvq9rousg6qSMpwsYBY19HTySPnjvIp8Cm3fy\nHvNYjC6uKaWrKc0SLTu5RwOgQB/QVPuZlF3gSVassrdMMrumSLoDE33RfQbc\nJcRG\r\n=7iAh\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "20e91ffd0945ee9761ea5648c202ab24eebf4ff8",
+    "tarball": "https://registry.npmjs.org/cordova-universal-links-plugin-fix/-/cordova-universal-links-plugin-fix-1.2.1.tgz",
+    "unpackedSize": 457855
+  },
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=3.8"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=4"
+    }
+  ],
+  "gitHead": "ed76e346719c00918c6cefd25d2ca22e25205066",
+  "homepage": "https://github.com/nordnet/cordova-universal-links-plugin#readme",
+  "keywords": [
+    "android",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "deep links",
+    "ecosystem:cordova",
+    "ios",
+    "links",
+    "universal",
+    "universal links"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "musemind",
+      "email": "kontakt@johanneslinowski.de"
+    }
+  ],
+  "name": "cordova-universal-links-plugin-fix",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nordnet/cordova-universal-links-plugin.git"
+  },
+  "version": "1.2.1"
+}

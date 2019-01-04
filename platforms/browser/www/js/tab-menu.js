@@ -17,7 +17,6 @@ var tabMenu = {
         $('#tab_gallery').addClass('focused');
 
         $("#tab-menu .tab").click(function() {
-            console.log($(this)[0].id);
             tabMenu.clicked( $(this)[0].id );
         });
     },
