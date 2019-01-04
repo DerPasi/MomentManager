@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-browsertab",
+      "/home/pascal/DHBW/MomentManager"
+    ]
+  ],
+  "_from": "cordova-plugin-browsertab@latest",
+  "_id": "cordova-plugin-browsertab@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-browsertab",
+  "_nodeVersion": "7.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-browsertab-0.2.0.tgz_1492102778923_0.46091338130645454"
+  },
+  "_npmUser": {
+    "email": "iainmcgin@google.com",
+    "name": "iainmcgin"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-browsertab",
+    "raw": "cordova-plugin-browsertab",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-browsertab/-/cordova-plugin-browsertab-0.2.0.tgz",
+  "_shasum": "1e07f9872e15467a50e7d14a73fefd874faed64a",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-browsertab",
+  "_where": "/home/pascal/DHBW/MomentManager",
+  "author": {
+    "name": "Google, Inc."
+  },
+  "cordova": {
+    "id": "cordova-plugin-browsertab",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "In-app browser tabs for Android and iOS",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "1e07f9872e15467a50e7d14a73fefd874faed64a",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-browsertab/-/cordova-plugin-browsertab-0.2.0.tgz"
+  },
+  "keywords": [
+    "browser",
+    "browser-tabs",
+    "custom-tabs",
+    "sfsafariviewcontroller"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "iainmcgin",
+      "email": "iainmcgin@google.com"
+    }
+  ],
+  "name": "cordova-plugin-browsertab",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "0.2.0"
+}

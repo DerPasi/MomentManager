@@ -20,5 +20,26 @@ var takePhoto = {
 
     onFail: function(msg) {
         console.log("ERROR: " + msg);
+    },
+
+    delete: function() {
+        navigator.notification.confirm(
+            "Wollen Sie das Bild wirklich wieder löschen?",
+            takePhoto.onConfirm,
+            'Hinweis',
+            ['Abbrechen', 'Ja']
+        );
+    },
+
+    onConfirm: function(pressedButton) {
+        if(pressedButton == 2) {
+            $('#new_photo_pic_pic').attr("src", "");
+
+        $('#new_photo_pic_pic').css('display', 'none');
+        $('#new_photo_pic_delete').css('display', 'none');
+        $('#new_photo_pic_renew').css('display', 'none');
+
+        $('#new_photo_pic_new').css('display', 'inline');
+        }
     }
 }

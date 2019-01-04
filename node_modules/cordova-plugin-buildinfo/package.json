@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-buildinfo@2.0.2",
+      "/home/pascal/DHBW/MomentManager"
+    ]
+  ],
+  "_from": "cordova-plugin-buildinfo@2.0.2",
+  "_id": "cordova-plugin-buildinfo@2.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-buildinfo",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-buildinfo_2.0.2_1534065973283_0.12263715033387057"
+  },
+  "_npmUser": {
+    "email": "tartelyn@gmail.com",
+    "name": "lynrin"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-buildinfo",
+    "raw": "cordova-plugin-buildinfo@2.0.2",
+    "rawSpec": "2.0.2",
+    "scope": null,
+    "spec": "2.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-buildinfo/-/cordova-plugin-buildinfo-2.0.2.tgz",
+  "_shasum": "a4573ee8a82199461b7ff595228a9b42a2cd8852",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-buildinfo@2.0.2",
+  "_where": "/home/pascal/DHBW/MomentManager",
+  "author": {
+    "name": "Mikihiro Hayashi"
+  },
+  "bugs": {
+    "url": "https://github.com/lynrin/cordova-plugin-buildinfo/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-buildinfo",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova/Phonegap Build Information Plugin. Get PackageName, Version, Debug and more...",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 16,
+    "integrity": "sha512-hrrNZxSiV2KoyJ3cNPkvy/GoaWZbLZuuJMDaEK3OJ4GXgtuqB1lxAUQqJG+L2P2Ak3xwRZizqH32U5gE32I96w==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbb/01CRA9TVsSAnZWagAACN8P/ikf5aglDmRQ6XNa0oIk\nNCI4ShWEcR+Csyt9swTPbmaqikxmPHDjdJUPGq2Qhrg28AUy2MHno0Gdu6pm\n0FObOwI0dKDTjysRzx0/gCRoGSwmyuSjfigS8JaAqYjdFdLaoPizARq9HRar\nRolJp6KJbr0e5sE4YQWsV24LoX/JR+/8NTkY5HQ4pn/zb1Deh7T2JiPF39QV\nEgflTGx2Xf6es7hTs79cdgOXOTWOuuPPSStjgU4nN6zqJeMXFZjZkd3ofsAv\nNIlDwls0aKpynu9Gyonj92LyNmWb7xL3pqev8YNYR+DmANh9PR1W8b558DpI\nsi8Qt3Wto5pItYR+BA2FQFLTQa/eGY6becmhRhCrrZzXIyTmc+g7Nsn/Fy9l\nULQK52Ul7QSfutMg6pLGVPPc7eXfnzadjSMt+SrGm3AQCENlkfYOuIfrfytR\nMjA+2f1hfvpEEzBu94uep5yQsAz32EPQnPuHjEeA9wT454EVs/u+Q67LzSY6\n3P0G32fOElKPw1HdFrLBVUPrYFlKbYvR42YY3Hvwm36djh9YUYCbuxu6q3yc\nVgr2KvcNNDN7dAaXG1Zd+FO8+ORsenX3jW6tO90OdqIi9fFhdobnjlLZ7RNS\nv9JmyoQ0YtmfVZDC7nCJp24wxZAxHBco4oesGr/c4TeovmNVfDLteZ6lb7TA\nDO91\r\n=ZZJ4\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "a4573ee8a82199461b7ff595228a9b42a2cd8852",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-buildinfo/-/cordova-plugin-buildinfo-2.0.2.tgz",
+    "unpackedSize": 44248
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.0": {
+        "cordova": ">=4.0.0"
+      },
+      "2.0.0": {
+        "cordova": ">=5.4.0",
+        "cordova-android": ">=5.0.0",
+        "cordova-ios": ">=4.0.0",
+        "cordova-windows": ">=4.0.0"
+      },
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "gitHead": "d11a06eab9e41219959e187cb532162fe4440fdc",
+  "homepage": "https://github.com/lynrin/cordova-plugin-buildinfo#readme",
+  "keywords": [
+    "buildconfig",
+    "buildinfo",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "debug",
+    "ecosystem:cordova",
+    "phonegap"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "lynrin",
+      "email": "tartelyn@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-buildinfo",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynrin/cordova-plugin-buildinfo.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "version": "2.0.2"
+}
