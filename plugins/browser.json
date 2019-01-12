@@ -27,6 +27,9 @@
     },
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "de.bierente.memorymanager"
     }
   },
   "dependent_plugins": {

@@ -35,6 +35,7 @@
             <path url="/__/auth/callback" />
         </host>
     </universal-links>
+    <plugin name="cordova-plugin-x-toast" spec="^2.7.2" />
     <engine name="browser" spec="^5.0.4" />
     <engine name="android" spec="^6.4.0" />
 </widget>

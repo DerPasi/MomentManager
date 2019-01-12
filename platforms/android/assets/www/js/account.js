@@ -1,6 +1,6 @@
 var account = {
 
-    token: "",
+    uid: "",
 
     login: function() {
         var provider = new firebase.auth.GoogleAuthProvider();
@@ -9,8 +9,9 @@ var account = {
 
           //für Android-App
         return firebase.auth().getRedirectResult();}).then(function(result) {
-            if (result.credential) {
-              account.changedLoginStatus(result.credential.accessToken);
+            if (result.user) {
+              console.log(result.user.uid);
+              account.changedLoginStatus(result.user.uid);
             }
           }).catch(function(error) {
             account.loginError();
@@ -44,29 +45,25 @@ var account = {
     },
 
     isLogind: function() {
-      if(account.token == null || account.token == "") {
+      if(account.uid == null || account.uid == "") {
         return false;
       } else {
         return true;
       }
     },
 
-    changedLoginStatus: function(token) {
-      account.token = token;
+    changedLoginStatus: function(uid) {
+      account.uid = uid;
       
       account.changeHeaderIcon();
       gallery.initialize();
     },
 
     changeHeaderIcon: function() {
-      console.log(account.token);
-      console.log(account.isLogind);
       if(account.isLogind()) {
-        console.log("YES");
         $('#header_login').css('display', 'none');
         $('#header_logout').css('display', 'inline');
       } else {
-        console.log("NO");
         $('#header_login').css('display', 'inline');
         $('#header_logout').css('display', 'none');
       }
@@ -75,8 +72,8 @@ var account = {
 
 //für Browser
 firebase.auth().getRedirectResult().then(function(result) {
-    if (result.credential) {
-      account.changedLoginStatus(result.credential.accessToken);
+    if (result.user) {
+      account.changedLoginStatus(result.user.uid);
     }
   }).catch(function(error) {
     account.loginError();

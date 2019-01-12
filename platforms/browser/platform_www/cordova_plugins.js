@@ -84,6 +84,14 @@ module.exports = [
         "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
         "pluginId": "cordova-plugin-inappbrowser",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
+        "id": "cordova-plugin-x-toast.Toast",
+        "pluginId": "cordova-plugin-x-toast",
+        "clobbers": [
+            "window.plugins.toast"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -96,7 +104,8 @@ module.exports.metadata =
     "cordova-universal-links-plugin": "1.2.1",
     "cordova-plugin-compat": "1.2.0",
     "cordova-plugin-browsertab": "0.2.0",
-    "cordova-plugin-inappbrowser": "3.0.0"
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "cordova-plugin-x-toast": "2.7.2"
 }
 // BOTTOM OF METADATA
 });
