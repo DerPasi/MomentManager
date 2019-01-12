@@ -2,8 +2,7 @@ var gallery = {
 
     initialize: function() {
         var html = "";
-        console.log(account.token);
-        if(account.token == "") {
+        if(!account.isLogind()) {
             html += "<p>Nicht eingeloggt</p>";
         } else {
             html += "<p>Eingeloggt</p>"

@@ -80,6 +80,14 @@ module.exports = [
     "clobbers": [
       "universalLinks"
     ]
+  },
+  {
+    "id": "cordova-plugin-x-toast.Toast",
+    "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
+    "pluginId": "cordova-plugin-x-toast",
+    "clobbers": [
+      "window.plugins.toast"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -91,7 +99,8 @@ module.exports.metadata =
   "cordova-plugin-dialogs": "2.0.1",
   "cordova-plugin-inappbrowser": "3.0.0",
   "cordova-plugin-whitelist": "1.3.3",
-  "cordova-universal-links-plugin": "1.2.1"
+  "cordova-universal-links-plugin": "1.2.1",
+  "cordova-plugin-x-toast": "2.7.2"
 };
 // BOTTOM OF METADATA
 });
