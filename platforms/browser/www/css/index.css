@@ -25,6 +25,7 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     margin: 0px;
+    font-family: arial;
 
     --main-color: #1069FF;
     --second-color: #A4A9B1;
@@ -124,4 +125,56 @@ body {
     position: absolute;
     top: 7px;
     right: 7px;
+}
+
+.gallery_titel {
+    width: calc( 100% - 16px );
+    padding: 8px;
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.gallery_titel h2 {
+    margin: 0px;
+}
+
+.gallery_img {
+    width: 100%;
+    text-align: center; 
+    background-color: var(--main-color);
+}
+
+.gallery_img img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gallery_description {
+    width: calc( 100% - 10px );
+    padding: 5px;
+    margin-bottom: 25px;
+    background-color: var(--third-color);
+}
+
+.pic_menu {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+
+.pic_delete {
+    position: absolute;
+    right: -50px;
+    top: 75px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.pic_delete svg {
+    margin-top: 8px;
 }

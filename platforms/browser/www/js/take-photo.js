@@ -84,6 +84,15 @@ var takePhoto = {
 
                 $('input[name=new_photo_title]').val("");
                 $('#new_photo_description').val("");
+
+                window.plugins.toast.showWithOptions(
+                    {
+                      message: "Bild gespeichert!",
+                      duration: "short",
+                      position: "bottom"
+                    }
+                  );
+                  
             } else {
                 navigator.notification.alert(
                     "Sie müssen ein Bild machen und diesem einen Titel geben, um es speichern zu können.",
