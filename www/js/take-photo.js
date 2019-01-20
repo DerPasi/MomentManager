@@ -92,6 +92,7 @@ var takePhoto = {
                       position: "bottom"
                     }
                   );
+                  gallery.initialize();
                   
             } else {
                 navigator.notification.alert(

@@ -3,7 +3,7 @@ var gallery = {
     initialize: function() {
         var html = "";
         if(!account.isLogind()) {
-            html = "<p>Sie müssen eingeloggt sein, um den vollen Umfang von MomentManger nutzen zu können!</p>";
+            html = "<p>Sie müssen eingeloggt sein, um den vollen Umfang von MomentManager nutzen zu können!</p>";
             $('#gallery').html(html);
         } else {
 
@@ -13,7 +13,7 @@ var gallery = {
                 var bilderVorhanden = false;
                 for(element in pictures) {
                     var html_pic = '';
-                    html_pic += '<div class="gallery_entry"><div class="gallery_titel">';
+                    html_pic += '<div class="gallery_entry" data-id="' + element + '"><div class="gallery_titel">';
                     html_pic += '<h2>' + pictures[element].titel + '</h2>';
                     html_pic += '<svg class="pic_menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12 18c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3zm0-9c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3zm0-9c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3z"/></svg>';
                     html_pic += '<div class="pic_delete invisible"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M3 6v18h18v-18h-18zm5 14c0 .552-.448 1-1 1s-1-.448-1-1v-10c0-.552.448-1 1-1s1 .448 1 1v10zm5 0c0 .552-.448 1-1 1s-1-.448-1-1v-10c0-.552.448-1 1-1s1 .448 1 1v10zm5 0c0 .552-.448 1-1 1s-1-.448-1-1v-10c0-.552.448-1 1-1s1 .448 1 1v10zm4-18v2h-20v-2h5.711c.9 0 1.631-1.099 1.631-2h5.315c0 .901.73 2 1.631 2h5.712z"/></svg></div>';
@@ -50,7 +50,35 @@ var gallery = {
         }
 
         $(this).toggleClass('active');
+    },
+
+    deleteButtonPressed: function(id, refPic) {
+        navigator.notification.confirm(
+            "Wollen Sie das Bild wirklich aus Ihrer Gallerie löschen?",
+            function(buttonIndex) {
+                gallery.onConfirm(buttonIndex, id, refPic);
+            },
+            'Hinweis',
+            ['Abbrechen', 'Ja']
+        );
+    },
+
+    onConfirm: function(pressedButton, id, refPic) {
+        if(pressedButton == 2) {
+            gallery.deletePhoto(id, refPic);
+        }
+    },
+
+    deletePhoto: function(id, refPic) {
+        console.log(id);
+        firebase.database().ref('/UserOfPics/' + account.uid).child(id).remove();
+        refPic.remove();
     }
 }
 
 $('#gallery').on('click', '.pic_menu', gallery.toggleMenu);
+$('#gallery').on('click', '.pic_delete', function() {
+    var id = $(this).parent().parent().attr("data-id");
+    var refPic = $(this).parent().parent();
+    gallery.deleteButtonPressed(id, refPic);
+});
